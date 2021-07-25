@@ -142,4 +142,156 @@ header {
 }
 
 
+@media screen and (max-width: 768px) {
+    nav {
+        position: relative;
+    }
 
+    .nav-menu {
+        top: -100%;
+        left: 50%;
+        transform: translate(-50%);
+        height: 60%;
+        width: 90%;
+        transition: all 0.4s ease-in-out;
+        z-index: 200;
+    }
+
+    .nav-menu .active {
+        top: 10%;
+    }
+
+    .nav-menu ul {
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .toggle {
+        position: fixed;
+        top: 5%;
+        height: 3px;
+        width: 28px;
+        background-color: white;
+    }
+
+    .toggle span:not(:last-child) {
+        margin-bottom: 5px;
+    }
+
+    .header-text {
+        position: absolute;
+        top: 25%;
+        left: 12%;
+    }
+
+    .header-text h1 {
+        font-size: 78px;
+        color: #dee3a8;
+    }
+
+    .header-text p {
+        font-size: 36px;
+        font-family: "Gabriola";
+        color: #dee3a8;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .social-links {
+        position: absolute;
+        top: 0;
+        left: 7%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+
+    .header-text h1 {
+        font-size: 60px;
+    }
+
+    .header-text { 
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .left {
+        position: absolute;
+        bottom: 0%;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-image: url(../icons/leftMobile.svg);
+        background-position: left bottom;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .right {
+        position: absolute;
+        bottom: 0%;
+        right: 0;
+        width: 100vw;
+        height: 100vh;
+        background-image: url(../icons/rightMobile.svg);
+        background-position: right top;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
+
+@media screen and (max-width: 414px) {
+    .header-text {
+        top: 30%;
+        left: 8%;
+        height: 140px;
+    }
+
+    .header-text h1 {
+        font-size: 48px;
+    }
+
+    .header-text p {
+        font-size: 22px;
+    }
+
+    .header-text a {
+        height: 30%;
+        width: 120px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .header-text {
+        height: 155px;
+    }
+
+    .header-text h1 {
+        font-size: 41px;
+    }
+
+    .header-text p {
+        font-size: 18px;
+    }
+}
+
+.section-title {
+    padding-top: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #dee3a8;
+}
+
+.article {
+    max-width: 1050px;
+    margin: 70px auto;
+    color: #dee3a8;
+}
