@@ -141,7 +141,6 @@ header {
     color: #dee3a8;
 }
 
-
 @media screen and (max-width: 768px) {
     nav {
         position: relative;
@@ -208,7 +207,6 @@ header {
         flex-direction: column-reverse;
     }
 
-
     .header-text h1 {
         font-size: 60px;
     }
@@ -243,7 +241,6 @@ header {
         background-repeat: no-repeat;
     }
 }
-
 
 @media screen and (max-width: 414px) {
     .header-text {
@@ -293,5 +290,197 @@ header {
 .article {
     max-width: 1050px;
     margin: 70px auto;
+    color: #dee3a8;
+}
+
+.feature-project h3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+}
+
+.feature-project h3::after {
+    content: "";
+    display: inline-block;
+    height: 3px;
+    width: 80%;
+    background-color: #dee3a8;
+}
+
+.odd .project-info {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 70px;
+}
+
+.even .project-info {
+    display: flex;
+    padding-top: 70px;
+}
+
+.project-info .project-text {
+    background-color: #0b092e;
+    height: 100%;
+    padding: 20px;
+}
+
+.even .project-info .project-text {
+    text-align: right;
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-header h4 {
+    padding-bottom: 40px;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.project-header a img {
+    width: 35px;
+    height: 35px;
+}
+
+.project-text p {
+    font-size: 1.7rem;
+    font-family: "Gabriola";
+    line-height: 25px;
+}
+
+.project-info img {
+    height: 275px;
+    opacity: 0.4;
+}
+
+@media  screen and (max-width: 768px) {
+    .article {
+        max-width: 90vw;
+    }
+
+    .odd.project-info,
+    .even.project-info {
+        display: flex;
+        flex-direction: column;
+        padding-top: 70px;
+    }
+
+    .project-info img {
+        height: initial;
+    }
+
+    .project-text p {
+        font-size: 1.2rem;
+        font-family: "Gabriola";
+        line-height: 25px;
+    }
+}
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about_me p {
+    font-size: 1.7rem;
+}
+
+.about_me ul {
+    padding-top: 50px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    color: #66FCF1;
+    font-size: 1.7rem;
+    text-decoration: overline;
+}
+
+@media  screen and (max-width: 768px) {
+    .about_me p {
+        font-size: 1.2rem;
+    }
+
+    .about_me ul {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+}
+
+.contact_me {
+    width: 100vw;
+}
+
+.send-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.send-message input, 
+.send-message label,
+.send-message textarea {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+}
+
+.send-message input, 
+.send-message textarea {
+    height: 40px;
+    border-radius: none;
+    width: 70%;
+}
+
+.send-message label,
+.send-message textarea {
+    display: block;
+}
+
+.send-message textarea {
+    height: 200px;
+}
+
+.send-message .submit {
+    margin: 10px 0;
+    background-color: #66FCF1;
+    border: none;
+    color: #0b092e;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .send-message input, 
+    .send-message label,
+    .send-message textarea {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    }
+
+    .send-message input,
+    .send-message textarea {
+        height: 40px;
+        border-radius: none;
+        width: 90%;
+    }
+
+    .send-message textarea {
+        height: 150px;
+    }
+}
+
+footer {
+    height: 70px;
+    background-color: #03021a;
+}
+
+footer h2 {
+    padding: 10px;
+    text-align: center;
+    font-size: 1.7rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #dee3a8;
 }
