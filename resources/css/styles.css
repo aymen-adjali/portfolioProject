@@ -228,7 +228,7 @@ header {
         z-index: 200;
     }
 
-    .nav-menu .active {
+    .nav-menu.active {
         top: 10%;
     }
 
@@ -498,6 +498,13 @@ header {
     font-size: 1.7rem;
 }
 
+.info {
+    text-align: center;
+    margin-top: 4rem;
+    color: #dee3a8;
+    font-size: 1.2rem;
+}
+
 @media  screen and (max-width: 768px) {
     .about_me p {
         font-size: 1.2rem;
@@ -592,7 +599,8 @@ footer h2 {
 }
 
 #about-me,
-#skills{
+#skills,
+#contact-me {
     padding-top: 3rem;
 }
 
