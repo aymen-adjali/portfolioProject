@@ -5,6 +5,7 @@ const nav_menu = document.querySelector(".nav-menu");
 const home = document.querySelector("#home");
 const project = document.querySelector("#projects");
 const about = document.querySelector("#about-me");
+const skill = document.querySelector("#skills");
 const contact = document.querySelector("#contact-me");
 
 const mobileMenu = () => {
@@ -27,7 +28,7 @@ window.addEventListener("scroll", () => {
             }
         });
     }
-    if(project.getBoundingClientRect().top <=1) {
+    if(project.getBoundingClientRect().top <=250) {
         list.forEach((item) => {
             if(item.hash === "#projects") {
                 item.classList.add("highlight");
@@ -36,7 +37,7 @@ window.addEventListener("scroll", () => {
             }
         });
     }
-    if(about.getBoundingClientRect().top <=100) {
+    if(about.getBoundingClientRect().top <=150) {
         list.forEach((item) => {
             if(item.hash === "#about-me") {
                 item.classList.add("highlight");
@@ -45,7 +46,17 @@ window.addEventListener("scroll", () => {
             }
         });
     }
-    if(contact.getBoundingClientRect().top <=200) {
+
+    if(skill.getBoundingClientRect().top <=150) {
+        list.forEach((item) => {
+            if(item.hash === "#skills") {
+                item.classList.add("highlight");
+            } else {
+                item.classList.remove("highlight");
+            }
+        });
+    }
+    if(contact.getBoundingClientRect().top <=250) {
         list.forEach((item) => {
             if(item.hash === "#contact-me") {
                 item.classList.add("highlight");
@@ -54,6 +65,8 @@ window.addEventListener("scroll", () => {
             }
         });
     }
+
+
 });
 
 toggled.addEventListener("click", mobileMenu);

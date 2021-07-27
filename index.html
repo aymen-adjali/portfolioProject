@@ -18,6 +18,7 @@
                   <li><a href="#home">Home</a></li>
                  <li><a href="#projects">Projects</a></li>
                  <li><a href="#about-me">About Me</a></li>
+                  <li><a href="#skills">Skills</a></li>
                   <li><a href="#contact-me">Contact Me</a></li>
              </ul>
         </div>
@@ -34,20 +35,23 @@
         <div class="header-text">
             <h1>Hello! I'm Aymen</h1>
             <p>I'm a Computer Science student</p>
-            <a href="#">My Resume</a>
+            <a href="https://www.pdfescape.com/shared/?C11F941D14715D2B8914B7473F8AEE7F9825A74C3941DDF3" target="_blank">My Resume</a>
         </div>
         <div class="social-links">
+            <a href="https://github.com/aymen-adjali" target="_blank"><img src="resources/icons/github.svg" alt=""></a>
+            <a href="https://www.linkedin.com/in/aymen-adjali-5360b8218/" target="_blank"><img src="resources/icons/linkedincolour.svg" alt=""></a>
+            <a href="mailto:aymen_professional@hotmail.com"><img src="resources/icons/email.svg" alt=""></a>
             <a href="#"><img src="resources/icons/github.svg" alt=""></a>
-            <a href="#"><img src="resources/icons/github.svg" alt=""></a>
-            <a href="#"><img src="resources/icons/github.svg" alt=""></a>
-            <a href="#"><img src="/resources/icons/github.svg" alt=""></a>
             <div class="line"></div>
         </div>
     </header>
 
     <main>
         <section class="projects" id="projects">
-            <h2 class="section-title">Projects</h2>
+            <div class="top">
+                <h2 class="section-title">Projects</h2>
+                <hr>
+            </div>
 
             <article class="article odd">
                 <div class="feature-project">
@@ -119,23 +123,53 @@
         </section>
 
         <section id="about-me">
-            <h2 class="section-title">About Me</h2>
+            <div class="top">
+                <h2 class="section-title">About Me</h2>
+                <hr>
+            </div>
             <article class="article about_me">
                 <p>This is where the project description will go, i will fill this in with what the project is about and hopefully it will help people understand what i did.
                     This part should be quite long so im making it longer.
                 </p>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                </ul>
             </article>
         </section>
 
+        <section id="skills">
+            <div class="top">
+                <h2 class="section-title">Skills</h2>
+                <hr>
+            </div>
+            <article class="my_skills">
+                <div class="skill">
+                    <img src="resources/icons/java.svg" alt="">
+                    <h2>java</h2>
+                </div>
+
+                <div class="skill">
+                    <img src="resources/icons/javaScript.svg" alt="">
+                    <h2>javaScript</h2>
+                </div>
+
+                <div class="skill">
+                    <img src="resources/icons/css.svg" alt="">
+                    <h2>css</h2>
+                </div>
+
+                <div class="skill">
+                    <img src="resources/icons/html.svg" alt="">
+                    <h2>html</h2>
+                </div>
+            </article>
+
+        </section>
+
+
         <section id="contact-me">
-            <h2 class="section-title">Contact Me</h2>
+            <div class="top">
+                <h2 class="section-title">Contact Me</h2>
+                <hr>
+            </div> 
             <article class="article contact_me">
-                
                 <form action="https://formspree.io/f/myylngww" class="send-message" method="post">
                     <label for="name">Name</label>
                     <input type="text" name="name" class="form-control" placeholder="Your Name" required>
@@ -151,7 +185,6 @@
 
                     <input type="submit" value="Submit" class="form-control submit">
                 </form>
-                
             </article>
         </section>
     </main>

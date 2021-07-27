@@ -121,13 +121,14 @@ header {
 .social-links {
     position: fixed;
     bottom: 0;
-    right: 7%;
+    right: 5%;
     height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     width: 0;
+    z-index: 500;
 }
 
 .social-links .line {
@@ -137,15 +138,80 @@ header {
 }
 
 .social-links img {
-    height: 20px;
-    width: 20px;
-    color: #dee3a8;
+    height: 40px;
+    width: 40px;
+    background: white;
+    padding: 0.1rem;
+    border-radius: 25%;
 }
 
 .article {
     padding-left: 2rem;
     padding-right: 2rem;
+    width: 90%;
 }
+
+
+.my_skills {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+.top {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+}
+
+ hr {
+    position: relative;
+    width: 135px;
+    height: 4px;
+    border: none;
+    background: #50BFE6;
+    justify-self: center;
+}
+
+
+.skill {
+    position: relative;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+}
+
+.skill img {
+    position: relative;
+    width: 7rem;
+    height: 7rem;
+    padding: 7px;
+    background: white;
+    border-radius: 25%;
+    
+}
+
+.skill h2 {
+    font-size: 1.5rem;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
 
 @media screen and (max-width: 768px) {
     nav {
@@ -367,8 +433,11 @@ header {
 }
 
 .project-header a img {
-    width: 35px;
-    height: 35px;
+    height: 40px;
+    width: 40px;
+    background: white;
+    padding: 0.1rem;
+    border-radius: 25%;
 }
 
 .project-text p {
@@ -394,8 +463,10 @@ header {
         padding-top: 70px;
     }
 
+
+
     .project-info img {
-        height: initial;
+        height: auto;
     }
 
     .project-text p {
@@ -415,7 +486,7 @@ header {
     font-size: 1.7rem;
 }
 
-.about_me ul {
+/* .about_me ul {
     padding-top: 50px;
     width: 50%;
     display: flex;
@@ -423,17 +494,17 @@ header {
     color: #66FCF1;
     font-size: 1.7rem;
     text-decoration: overline;
-}
+} */
 
 @media  screen and (max-width: 768px) {
     .about_me p {
         font-size: 1.2rem;
     }
 
-    .about_me ul {
+    /* .about_me ul {
         width: 100%;
         font-size: 1.2rem;
-    }
+    } */
 }
 
 .contact_me {
@@ -477,6 +548,14 @@ header {
     cursor: pointer;
 }
 
+label {
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+}
+
+input {
+}
+
 @media screen and (max-width: 768px) {
     .send-message input, 
     .send-message label,
@@ -518,10 +597,12 @@ footer h2 {
     padding-top: 3rem;
 }
 
-#about-me {
+#about-me,
+#skills{
     padding-top: 3rem;
 }
 
 textarea {
     resize: none;
 }
+
