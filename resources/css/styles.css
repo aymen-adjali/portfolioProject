@@ -329,6 +329,18 @@ header {
         background-size: contain;
         background-repeat: no-repeat;
     }
+
+    .social-links {
+        height: 160px;
+    }
+
+    .social-links img {
+        height: 30px;
+        width: 30px;
+        background: white;
+        padding: 0.1rem;
+        border-radius: 25%;
+    }
 }
 
 @media screen and (max-width: 414px) {
@@ -587,4 +599,3 @@ footer h2 {
 textarea {
     resize: none;
 }
-

@@ -70,6 +70,9 @@ window.addEventListener("scroll", () => {
 });
 
 toggled.addEventListener("click", mobileMenu);
+
 list.forEach((item) => {
     item.addEventListener("click", mobile);
 })
+
+
