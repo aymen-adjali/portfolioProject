@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aymen's Portfolio Webpage</title>
 
-    <link rel="stylesheet" href="../portfolioProject/resources/css/styles.css">
+    <link rel="stylesheet" href="resources/css/styles.css">
 
-    <link rel="icon" href="../portfolioProject/resources/icons/flavicon.svg">
+    <link rel="icon" href="resources/icons/flavicon.svg">
 </head>
 
 <body>
@@ -37,10 +37,10 @@
             <a href="#">My Resume</a>
         </div>
         <div class="social-links">
-            <a href="#"><img src="../portfolioProject/resources/icons/github.svg" alt=""></a>
-            <a href="#"><img src="../portfolioProject/resources/icons/github.svg" alt=""></a>
-            <a href="#"><img src="../portfolioProject/resources/icons/github.svg" alt=""></a>
-            <a href="#"><img src="../portfolioProject/resources/icons/github.svg" alt=""></a>
+            <a href="#"><img src="resources/icons/github.svg" alt=""></a>
+            <a href="#"><img src="resources/icons/github.svg" alt=""></a>
+            <a href="#"><img src="resources/icons/github.svg" alt=""></a>
+            <a href="#"><img src="/resources/icons/github.svg" alt=""></a>
             <div class="line"></div>
         </div>
     </header>
@@ -57,12 +57,12 @@
                     <div class="project-text">
                         <div class="project-header">
                             <h4>Project Name</h4>
-                            <a href="#"><img src="../portfolioProject/resources/icons/github.svg" alt="github logo"></a>
+                            <a href="#"><img src="resources/icons/github.svg" alt="github logo"></a>
                         </div>
                         <p>This is where the project description will go, i will fill this in with what the project is about and hopefully it will help people understand what i did.
                             This part should be quite long so im making it longer.</p>
                     </div> 
-                    <img src="../portfolioProject/resources/images/audi.jpg" alt="">
+                    <img src="resources/images/audi.jpg" alt="">
                 </div>
             </article>
 
@@ -74,12 +74,12 @@
                     <div class="project-text">
                         <div class="project-header">
                             <h4>Project Name</h4>
-                            <a href="#"><img src="../portfolioProject/resources/icons/github.svg" alt="github logo"></a>
+                            <a href="#"><img src="resources/icons/github.svg" alt="github logo"></a>
                         </div>
                         <p>This is where the project description will go, i will fill this in with what the project is about and hopefully it will help people understand what i did.
                             This part should be quite long so im making it longer.</p>
                     </div> 
-                    <img src="../portfolioProject/resources/images/audi.jpg" alt="">
+                    <img src="resources/images/audi.jpg" alt="">
                 </div>
             </article>
 
@@ -91,12 +91,12 @@
                     <div class="project-text">
                         <div class="project-header">
                             <h4>Project Name</h4>
-                            <a href="#"><img src="../portfolioProject/resources/icons/github.svg" alt="github logo"></a>
+                            <a href="#"><img src="resources/icons/github.svg" alt="github logo"></a>
                         </div>
                         <p>This is where the project description will go, i will fill this in with what the project is about and hopefully it will help people understand what i did.
                             This part should be quite long so im making it longer.</p>
                     </div> 
-                    <img src="../portfolioProject/resources/images/audi.jpg" alt="">
+                    <img src="resources/images/audi.jpg" alt="">
                 </div>
             </article>
 
@@ -108,12 +108,12 @@
                     <div class="project-text">
                         <div class="project-header">
                             <h4>Project Name</h4>
-                            <a href="#"><img src="../portfolioProject/resources/icons/github.svg" alt="github logo"></a>
+                            <a href="#"><img src="resources/icons/github.svg" alt="github logo"></a>
                         </div>
                         <p>This is where the project description will go, i will fill this in with what the project is about and hopefully it will help people understand what i did.
                             This part should be quite long so im making it longer.</p>
                     </div>
-                    <img src="../portfolioProject/resources/images/audi.jpg" alt="">
+                    <img src="resources/images/audi.jpg" alt="">
                 </div>
             </article>
         </section>
@@ -135,21 +135,23 @@
         <section id="contact-me">
             <h2 class="section-title">Contact Me</h2>
             <article class="article contact_me">
-                <form action="" class="send-message">
+                
+                <form action="https://formspree.io/f/myylngww" class="send-message" method="post">
                     <label for="name">Name</label>
-                    <input type="text" name="name" class="name" required>
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" required>
 
                     <label for="subject">Subject</label>
-                    <input type="text" name="subject" class="subject" required>
+                    <input type="text" name="subject" class="form-control"  placeholder="Subject" required>
 
                     <label for="email">Email</label>
-                    <input type="email" name="email" class="email" required>
+                    <input type="email" name="email" class="form-control" placeholder="Your Email" required>
 
                     <label for="message">Message</label>
-                    <textarea name="message" required></textarea>
+                    <textarea name="message" class="form-control" placeholder="Message" row="4" required></textarea>
 
-                    <input type="submit" value="Submit" class="submit">
+                    <input type="submit" value="Submit" class="form-control submit">
                 </form>
+                
             </article>
         </section>
     </main>
@@ -158,6 +160,6 @@
         <h2>Coded by Aymen Adjali</h2>
     </footer>
 
-    <script src="../portfolioProject/resources/js/main.js"></script>
+    <script src="resources/js/main.js"></script>
 </body>
 </html>

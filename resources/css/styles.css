@@ -521,3 +521,7 @@ footer h2 {
 #about-me {
     padding-top: 3rem;
 }
+
+textarea {
+    resize: none;
+}
