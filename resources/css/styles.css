@@ -486,25 +486,10 @@ header {
     font-size: 1.7rem;
 }
 
-/* .about_me ul {
-    padding-top: 50px;
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
-    color: #66FCF1;
-    font-size: 1.7rem;
-    text-decoration: overline;
-} */
-
 @media  screen and (max-width: 768px) {
     .about_me p {
         font-size: 1.2rem;
     }
-
-    /* .about_me ul {
-        width: 100%;
-        font-size: 1.2rem;
-    } */
 }
 
 .contact_me {
@@ -551,9 +536,6 @@ header {
 label {
     margin-top: 1rem;
     margin-bottom: 0.2rem;
-}
-
-input {
 }
 
 @media screen and (max-width: 768px) {
