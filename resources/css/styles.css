@@ -217,6 +217,11 @@ header {
 
 
 @media screen and (max-width: 768px) {
+
+    .project-header h4,
+    .project-header a {
+        padding-bottom: 0.8rem;
+    }
     nav {
         position: relative;
     }
@@ -290,6 +295,8 @@ header {
         font-size: 1rem;
     }
 }
+
+
 
 @media screen and (max-width: 600px) {
     .social-links {
@@ -519,12 +526,12 @@ header {
     line-height: 25px;
 }
 
-.project-info img {
+.project-info img,
+.project-info video {
     height: 275px;
-    opacity: 0.4;
 }
 
-@media  screen and (max-width: 768px) {
+@media  screen and (max-width: 1000px) {
     .article {
         max-width: 90vw;
     }
@@ -538,9 +545,12 @@ header {
 
 
 
-    .project-info img {
+    .project-info img,
+    .project-info video {
         height: auto;
     }
+
+
 
     .project-text p {
         font-size: 1.2rem;
@@ -564,6 +574,7 @@ header {
     color: #dee3a8;
     font-size: 1.21rem;
 }
+
 
 @media  screen and (max-width: 768px) {
     .about_me p {
@@ -675,3 +686,18 @@ textarea {
     left: 1%;
     top: 15%;
   }
+
+  @media screen and (max-width: 460px) {
+    .project-header {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .project-header h4,
+    .project-header a {
+        padding-bottom: 0.8rem;
+    }
+
+   
+}
