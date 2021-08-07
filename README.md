@@ -14,7 +14,7 @@ This project is a responsive personal portfolio website made from scratch using 
 
 ## Video
 
-<img src="./videos/portfolio.gif" alt="menu" style="width:500px;"/>
+<img src="./resources/videos/portfolio.gif" alt="menu" style="width:500px;"/>
 
 ## General Information
 
@@ -58,17 +58,17 @@ Project is: _in progress_ - I will keep adding improvements and new projects.
 
 mobile menu:
 
-<img src="./videos/mobliemenu.gif" alt="scores" style="width:500px;"/>
+<img src="./resources/videos/mobliemenu.gif" alt="scores" style="width:500px;"/>
 <br><br>
-<img src="./images/home.png" alt="menu" style="width:500px;"/>
+<img src="./resources/images/home.png" alt="menu" style="width:500px;"/>
 <br><br>
-<img src="./images/projects.png" alt="instructions" style="width:500px;"/>
+<img src="./resources/images/projects.png" alt="instructions" style="width:500px;"/>
 <br><br>
-<img src="./images/about.png" alt="challenge" style="width:500px;"/>
+<img src="./resources/images/about.png" alt="challenge" style="width:500px;"/>
 <br><br>
-<img src="./images/skills.png" alt="scores" style="width:500px;"/>
+<img src="./resources/images/skills.png" alt="scores" style="width:500px;"/>
 <br><br>
-<img src="./images/contact.png" alt="scores" style="width:500px;"/>
+<img src="./resources/images/contact.png" alt="scores" style="width:500px;"/>
 
 ## Acknowledgements
 - This project was inspired by [this full stack engineering career path](https://www.codecademy.com/learn/paths/full-stack-engineer-career-path).
