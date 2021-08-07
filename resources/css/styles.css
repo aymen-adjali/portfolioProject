@@ -543,8 +543,6 @@ header {
         padding-top: 70px;
     }
 
-
-
     .project-info img,
     .project-info video {
         height: auto;
@@ -559,6 +557,7 @@ header {
 }
 
 .about_me {
+    margin-top: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
