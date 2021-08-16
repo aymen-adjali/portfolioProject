@@ -531,7 +531,8 @@ header {
     line-height: 25px;
 }
 
-.project-info img {
+.project-info img,
+.project-info video {
     height: 275px;
 }
 
@@ -548,7 +549,8 @@ header {
         align-items: center;
     }
 
-    .project-info img {
+    .project-info img, 
+    .project-info video {
         height: auto;
         width: 100%;
     }
