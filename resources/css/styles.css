@@ -206,7 +206,6 @@ header {
     padding: 7px;
     background: white;
     border-radius: 25%;
-    
 }
 
 .skill h2 {
@@ -294,6 +293,12 @@ header {
     .footer h2 {
         font-size: 1rem;
     }
+
+    .skill img {
+        width: 5rem;
+        height: 5rem;
+    }
+
 }
 
 
@@ -526,8 +531,7 @@ header {
     line-height: 25px;
 }
 
-.project-info img,
-.project-info video {
+.project-info img {
     height: 275px;
 }
 
@@ -544,8 +548,7 @@ header {
         align-items: center;
     }
 
-    .project-info img,
-    .project-info video {
+    .project-info img {
         height: auto;
         width: 100%;
     }
