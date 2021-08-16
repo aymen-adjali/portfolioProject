@@ -541,12 +541,17 @@ header {
         display: flex;
         flex-direction: column;
         padding-top: 70px;
+        align-items: center;
     }
 
     .project-info img,
     .project-info video {
         height: auto;
+        width: 100%;
     }
+
+
+
 
 
 
