@@ -214,6 +214,42 @@ header {
     text-transform: uppercase;
 }
 
+div.polaroid {
+    margin-top: 3rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+
+    border-bottom-left-radius: 6%;
+    border-bottom-right-radius: 6%;
+
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+
+    width: 40%;
+    height: auto;
+  }
+  
+  div.container {
+    text-align: center;
+    padding: 15px 32px;
+  }
+
+  div.container p {
+    font-size: 1.3rem;
+    color: #0b092e;
+    font-weight: bold;
+  }
+
+  .polaroid img {
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+
+
+  }
 
 @media screen and (max-width: 768px) {
 
@@ -298,6 +334,11 @@ header {
         width: 5rem;
         height: 5rem;
     }
+
+    div.polaroid {
+        width: 90%;
+
+      }
 
 }
 
@@ -462,7 +503,7 @@ header {
 }
 
 .article {
-    max-width: 1050px;
+    max-width: 1300px;
     margin: 70px auto;
     color: #dee3a8;
 }
@@ -554,9 +595,6 @@ header {
         height: auto;
         width: 100%;
     }
-
-
-
 
     .project-text p {
         font-size: 1.2rem;
@@ -705,6 +743,4 @@ textarea {
     .project-header a {
         padding-bottom: 0.8rem;
     }
-
-   
 }
