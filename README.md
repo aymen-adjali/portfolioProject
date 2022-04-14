@@ -42,7 +42,7 @@ This project is a responsive personal portfolio website made from scratch using 
 
 ## Usage
 
-Visit [Aymen's Portfolio Website](https://aymen-adjali.github.io/portfolioProject/).
+Visit [Aymen's Portfolio Website](https://aymenadjali.co.uk).
 
 
 ## Project Status
